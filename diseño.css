@@ -51,7 +51,7 @@
       height: 8px;
       width: 100%;
       font-family: Raleway;
-      font-size: 10px;
+      font-size: 11px;
       position: sticky;
       top: 0px;
       background: #02284A;
@@ -97,7 +97,7 @@
 
     .nav li ul li a {
       background-color: #00080f;
-      font-size: 9px;
+      font-size: 10px;
     }
 
     .nav li:hover>ul {
