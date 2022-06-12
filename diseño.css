@@ -326,25 +326,37 @@
 
 
     @media (max-width: 600px) {
+      ul.nav,
+        .nav li {
+        list-style: none;
+        padding-inline-start: 0px;
+      }
+      
       .nav>li {
         padding:10px;
         background:#02284A;
         width:130px;
-    }
+      }
       
-    .indice {
+      .indice {
           display: none;
-        }
+      }
     }
 
     @media (max-width: 300px) {
+      ul.nav,
+        .nav li {
+        list-style: none;
+        padding-inline-start: 0px;
+      }
+      
       .nav>li {
         padding:10px;
         background:#02284A;
         width:130px;
-    }
+      }
       
-    .indice {
+      .indice {
           display: none;
-        }
+      }
     }
