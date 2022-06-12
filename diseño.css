@@ -296,12 +296,6 @@
       cursor: pointer;
     }
 
-    @media only screen and (max-width: 700px){
-      .modal-content {
-        width: 100%;
-      }
-    }
-
 
 
     /* Pie de página */
@@ -328,11 +322,12 @@
         z-index: 3;
       } 
          
-      ul.nav, .nav li {
+      ul.nav, 
+          .nav li {
         list-style: none;
         padding-inline-start: 0px;
       }
-      
+          
       .nav>li {
         padding:10px;
         background:#02284A;
@@ -352,5 +347,8 @@
         top: 55px;
         z-index: 2;
         display: block;
+        box-shadow: 5px 5px 4px black, -5px -5px 4px black;
       }
+          
+        
     }
