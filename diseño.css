@@ -322,3 +322,29 @@
       align-items: flex-end;
       margin: 0px;
     }
+
+
+
+    @media (max-width: 600px) {
+      .nav>li {
+        padding:10px;
+        background:#02284A;
+        width:130px;
+    }
+      
+    .indice {
+          display: none;
+        }
+    }
+
+    @media (max-width: 300px) {
+      .nav>li {
+        padding:10px;
+        background:#02284A;
+        width:130px;
+    }
+      
+    .indice {
+          display: none;
+        }
+    }
