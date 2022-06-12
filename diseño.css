@@ -104,18 +104,6 @@
       display: block;
     }
     
-    @media (max-width: 400px) {
-      .container1 {
-            display: flex;
-            flex-flow: row;
-            justify-content: center;
-      } 
-      
-      .indice {
-            display:none;
-      }
-    }
-
 
 
     .container2 {
@@ -326,7 +314,7 @@
 
 
     
-    @media (max-width: 300px) {
+    @media (max-width: 1000px) {
       ul.nav,
         .nav li {
         list-style: none;
@@ -340,6 +328,15 @@
       }
       
       .indice {
-          display: none;
+          background: #black;
+          margin: 50px 10px 0 10px;
+          width: 35%;
+          height: 100%;
+          padding: 20px 60px 20px 20px;
+          position: sticky;
+          top: 55px;
+          z-index: 2;
+          display: block;
+    }
       }
     }
