@@ -315,8 +315,20 @@
 
     
     @media (max-width: 1000px) {
-      ul.nav,
-        .nav li {
+      #header {
+        padding: 0px 0px 30px 0px;
+        margin: auto;
+        height: 9px;
+        width: 100%;
+        font-family: Raleway;
+        font-size: 12px;
+        position: sticky;
+        top: 0px;
+        background: black;
+        z-index: 3;
+      } 
+         
+      ul.nav, .nav li {
         list-style: none;
         padding-inline-start: 0px;
       }
@@ -328,15 +340,15 @@
       }
       
       .indice {
-          background: #black;
-          margin: 50px 10px 0 10px;
-          width: 35%;
-          height: 100%;
-          padding: 20px 60px 20px 20px;
-          position: sticky;
-          top: 55px;
-          z-index: 2;
-          display: block;
-    }
+        background: black;
+        margin: 50px 0px 0 0px;
+        width: 35%;
+        height: 100%;
+        padding: 20px 30px 20px 20px;
+        border-radius: 3px;
+        position: sticky;
+        top: 55px;
+        z-index: 2;
+        display: block;
       }
     }
