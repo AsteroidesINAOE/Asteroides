@@ -129,6 +129,10 @@
       box-shadow: 5px 5px 4px #162635, -5px -5px 4px #6b8196;
     }
 
+    .indice_cel {
+      display:none;
+    }
+
     a {
       color: #0099FF;
     }
@@ -295,6 +299,15 @@
       
       .header_2 {
         display:block;
+      }
+      
+      .indice {
+        display:none;
+      }
+      
+      .indice_cel {
+        display:block;
+        width:100px;
       }
       
     }
