@@ -277,6 +277,11 @@
         display: block;
         box-shadow: 5px 5px 4px black, -5px -5px 4px black;
       }
+      
+      h3 {
+        padding: 0 20px 0 10px;
+        font-size: 20px;
+      }
           
         
     }
