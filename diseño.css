@@ -275,8 +275,15 @@
         background: black;
         color: #066DCC;
         font-weight: bold;
-        padding: 33px;
+        padding: 0px;
         font-size: 45px
+      }
+      
+      .logoimg {
+        display: flex;
+        height: 120px;
+        align-items: center;
+        margin: 0 0 10 0px;
       }
           
       header{
@@ -299,6 +306,6 @@
         padding: 20px 60px 20px 20px;
         top: 55px;
         z-index: 2;
-     }
+      }
       
     }
