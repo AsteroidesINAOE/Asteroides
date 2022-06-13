@@ -250,7 +250,7 @@
       }
           
       .nav>li {
-        float:inline-start;
+        float:none;
         width:150px;
       }
       
