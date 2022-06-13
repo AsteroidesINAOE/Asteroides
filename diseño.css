@@ -260,6 +260,10 @@
         transform: scale(1.1);
       }
       
+      .nav li:hover>ul {
+        display: none;
+      }
+      
       .indice {
         background: black;
         margin: 50px 0px 0 0px;
