@@ -241,7 +241,7 @@
         height: 9px;
         width: 100%;
         font-family: Raleway;
-        font-size: 12px;
+        font-size: 9px;
         position: sticky;
         top: 0px;
         background: #02284A;
@@ -256,7 +256,7 @@
           
       .nav>li {
         float:none;
-        width:125px;
+        width:100px;
       }
       
       .nav li a:hover {
@@ -269,20 +269,6 @@
         display: none;
       }
       
-      .indice {
-        background: black;
-        margin: 50px 10px 0 0px;
-        width: 100px;
-        height: 100%;
-        padding: 20px 0px 20px 0px;
-        border-radius: 3px;
-        position: sticky;
-        top: 55px;
-        z-index: 2;
-        display: block;
-        box-shadow: 5px 5px 4px black, -5px -5px 4px black;
-      }
-      
       .titulo {
         display: flex;
         justify-content: center;
@@ -290,7 +276,7 @@
         color: #066DCC;
         font-weight: bold;
         padding: 33px;
-        font-size: 40px
+        font-size: 45px
       }
           
       header{
