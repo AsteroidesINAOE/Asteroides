@@ -250,7 +250,8 @@
       }
           
       .nav>li {
-      float:none;
+        float:none;
+        width:14%;  
       }
       
       .indice {
