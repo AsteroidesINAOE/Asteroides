@@ -249,11 +249,9 @@
       }
           
       .nav>li {
-        padding:10px;
-        background:#02284A;
-        width:130px;
-        display:flow;
-        flex-flow: column;
+        .nav>li {
+      float:unset;
+    }
       }
       
       .indice {
