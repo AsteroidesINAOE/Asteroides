@@ -308,6 +308,11 @@
       .indice_cel {
         display:block;
         width:100px;
-      }
+        margin: 50px 10px 0 10px;
+        height: 100px;
+        padding: 20px 60px 20px 20px;
+        top: 55px;
+        z-index: 2;
+     }
       
     }
