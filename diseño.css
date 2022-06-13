@@ -251,7 +251,7 @@
           
       .nav>li {
         float:inline-start;
-        width:14%;  
+        width:150px;
       }
       
       .nav li a:hover {
