@@ -156,7 +156,7 @@ header{
   }
 
   /*Imagenes*/
-  img{
+  .imagen{
     width: 50%;
   }
 
@@ -438,7 +438,7 @@ label {
       font-size: 35px;
     }
 
-    img{
+    .imagen{
       width: 90%;
     }
 }
