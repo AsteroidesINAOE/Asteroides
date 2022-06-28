@@ -428,6 +428,10 @@ label {
       display:none;
     }
       
+    /* Texto*/
+    h2{
+      font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 400px){
